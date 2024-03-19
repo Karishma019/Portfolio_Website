@@ -21,6 +21,6 @@ export const projectsData = [
     description: `A portfolio website developed with React and Tailwind CSS seamlessly blends the power of React's dynamic frontend framework with Tailwind CSS's utility-first approach to styling. This dynamic duo empowers developers to create sleek, responsive, and visually captivating online portfolios. `,
     img: portfolio_website,
     id: 2,
-    url: "https://e-cart-online.vercel.app/",
+    url: "https://karishma019.vercel.app/",
   },
 ];
