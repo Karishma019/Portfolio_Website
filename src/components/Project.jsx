@@ -13,11 +13,13 @@ function Project({ reverse, img, description, title, url }) {
         />
       </div>
       <div className="w-1/2 h-1/2 -lg:w-full">
-        <h2 className="text-2xl font-semibold leading-loose">{title}</h2>
-        <p className="text-lg leading-7 py-4">{description}</p>
+        <h2 className="text-2xl font-semibold leading-loose -sm:text-xl">
+          {title}
+        </h2>
+        <p className="text-lg leading-7 py-4 -sm:text-base">{description}</p>
         <a
           href={url}
-          className="text-primary text-2xl leading-loose underline	font-semibold"
+          className="text-primary text-2xl leading-loose underline	font-semibold -sm:text-xl"
         >
           Visit&#10138;
         </a>

@@ -8,14 +8,14 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header />
       <HeroSection />
       <About />
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

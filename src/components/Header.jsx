@@ -9,14 +9,14 @@ function Header() {
     <header className="shadow-xl h-16 flex items-center bg-primary text-white sticky z-50 top-0">
       <div className="container flex justify-between items-center">
         <div className="logo cursor-pointer">
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-4xl font-bold -sm:text-2xl">
             <a href="#home">{`Karishma</>`}</a>
           </h1>
         </div>
         <span className="hidden -lg:block">
           {isOpen ? (
             <IoMdClose
-              className="-lg:text-5xl -lg:text-primary -lg:absolute -lg:right-5 -lg:top-2 z-40 cursor-pointer"
+              className="-lg:text-5xl -lg:text-primary -lg:absolute -lg:right-5 -lg:top-2 z-40 cursor-pointer -sm:text-3xl"
               onClick={() => {
                 setIsOpen(false);
               }}

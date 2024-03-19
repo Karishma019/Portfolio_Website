@@ -5,7 +5,7 @@ import { projectsData } from "../data/projects";
 function Projects() {
   return (
     <section id="project" className="bg-slate-100 py-10">
-      <p className="text-center text-3xl font-bold text-primary py-3">
+      <p className="text-center text-3xl font-bold text-primary py-3 -sm:text-2xl">
         My Recent Works
       </p>
       <div className="container">

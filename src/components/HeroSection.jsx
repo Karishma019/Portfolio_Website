@@ -12,11 +12,11 @@ function HeroSection() {
     <main id="home" className="bg-slate-100 py-8">
       <div className="container flex items-center gap-4 -lg:flex-col">
         <div className="w-1/2 flex flex-col	gap-8 -lg:w-full">
-          <h1 className="text-5xl font-bold text-slate-600 leading-tight">
+          <h1 className="text-5xl font-bold text-slate-600 leading-tight -sm:text-3xl">
             Are You Looking For{" "}
             <span className="text-primary">Front-End Web Developer?</span>
           </h1>
-          <p className="text-2xl">
+          <p className="text-2xl -sm:text-lg">
             Hi, I'm Karishma. An enthusiastic Front-end Web Developer
           </p>
           <ul className="flex gap-2 text-4xl">
@@ -36,7 +36,7 @@ function HeroSection() {
           <img src={devImg} alt="devImg" className="-lg:h-1/2" />
         </div>
       </div>
-      <ul className="container text-5xl flex gap-3 cursor-pointer">
+      <ul className="container text-5xl flex gap-3 cursor-pointer flex-wrap -sm:text-3xl">
         <p className="text-xl">Tech Stack |</p>
         <li className="text-orange-600 transition-all hover:-translate-y-2">
           <FaHtml5 />
