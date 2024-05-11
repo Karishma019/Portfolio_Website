@@ -22,7 +22,7 @@ function About() {
             About Me
           </p>
           <p className="text-lg py-4 -sm:text-base">
-            Hello there! I'm Karishma, a passionate and aspiring front-end web
+            Hello there! I'm Karishma, a passionate and aspiring full stack web
             developer eager to embark on an exciting journey in the world of web
             development. With a blend of creativity, curiosity, and a penchant
             for problem-solving, I am determined to carve my path in crafting
@@ -31,9 +31,9 @@ function About() {
           <p className="text-lg -sm:text-base">
             My journey into the realm of web development began with a spark of
             curiosity and a desire to bring ideas to life on the digital canvas.
-            Armed with foundational knowledge in HTML, CSS, and JavaScript, I
-            set out to explore the ever-evolving landscape of front-end
-            technologies.
+            Armed with foundational knowledge in HTML, CSS, and
+            JavaScript,Reactjs,Nodejs,MongoDB,Expressjs, I set out to explore
+            the ever-evolving landscape of front-end technologies.
           </p>
         </div>
       </div>

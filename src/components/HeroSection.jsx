@@ -6,6 +6,9 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
+import { IoLogoNodejs } from "react-icons/io5";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -13,11 +16,10 @@ function HeroSection() {
       <div className="container flex items-center gap-4 -lg:flex-col">
         <div className="w-1/2 flex flex-col	gap-8 -lg:w-full">
           <h1 className="text-5xl font-bold text-slate-600 leading-tight -sm:text-3xl">
-            Are You Looking For{" "}
-            <span className="text-primary">Front-End Web Developer?</span>
+            Hi! <span className="text-primary"> I'm Karishma</span>
           </h1>
           <p className="text-2xl -sm:text-lg">
-            Hi, I'm Karishma. An enthusiastic Front-end Web Developer
+            An enthusiastic Full-Stack Web Developer
           </p>
           <ul className="flex gap-2 text-4xl">
             <li>
@@ -52,6 +54,16 @@ function HeroSection() {
         </li>
         <li className="text-cyan-500 bg-black rounded transition-all hover:-translate-y-2">
           <FaReact />
+        </li>
+        <li className="text-black-100 bg-white rounded transition-all hover:-translate-y-2">
+          <SiExpress />
+        </li>
+        <li className="text-green-500 bg-black rounded transition-all hover:-translate-y-2">
+          <IoLogoNodejs />
+        </li>
+
+        <li className="text-green-500 bg-white rounded transition-all hover:-translate-y-2">
+          <SiMongodb />
         </li>
       </ul>
     </main>
