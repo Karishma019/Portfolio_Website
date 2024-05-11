@@ -3,6 +3,7 @@ import e_cart_website from "../assets/e-cart_website.png";
 import portfolio_website from "../assets/portfolio_website.png";
 import task_management from "../assets/task-management-app.png";
 import mern_app from "../assets/mern-app.png";
+import case_img from "../assets/case.png";
 
 export const projectsData = [
   {
@@ -40,5 +41,13 @@ export const projectsData = [
     img: portfolio_website,
     id: 4,
     url: "https://karishma019.vercel.app/",
+  },
+  {
+    title: "Case Convertor App",
+    description: `This versatile tool offers a range of functionalities to effortlessly manipulate text cases. Whether you need to convert text to uppercase, lowercase, alternative case, inverse case, or capitalize case, a Text-to-Speech functionality, allowing users to hear their text pronounced audibly. our tool has you covered. With the added convenience of a copy-to-clipboard feature, sharing your transformed text is a breeze. Plus, rest assured that our tool is designed with mobile users in mind, ensuring a seamless experience across devices
+    `,
+    img: case_img,
+    id: 5,
+    url: "https://case-convertor.vercel.app/",
   },
 ];
